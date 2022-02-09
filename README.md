@@ -1,6 +1,12 @@
 Problem Statement:-	
+
+
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and date information.
+
+
 The Solution:-
+
+
 As the first step, perform Data wrangling over the raw data of  Seoul Bikes Sharing (2017 to 2018) further I divided my solution  into Three main parts i.e. Exploratory data analysis, Feature Selection and Engineering and the last work on Various Regression models.
 The goal of this project was to build a machine learning model that could make an accurate prediction of how many bikes would be rented based on factors such as day of the week, time of day, temperature, humidity, precipitation, wind, and solar radiation. The dataset had 8,760 observations, with each observation representing one hour of one day. The target variable is ‘Rented Bike Count’ and there were 13 attributes to work with.
 In the EDA I focused on the firstly importing required Libraries and cleaning the data set then working on some basic analysis to check stable supply of rental bikes becomes a major concern
